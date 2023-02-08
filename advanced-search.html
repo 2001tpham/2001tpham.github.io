@@ -8,10 +8,22 @@
 <body>
     <!-- Page Contents -->
     <div class="left-align-contents">
+
+        <!-- Nav bar -->
+        <div class="nav-bar">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav-list">
+                        <li class="nav-option"><a href="index.html">Google Search</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+
         <h1 class="title">Advanced Search</h1>
 
         <!-- Main contents -->
-        <div clas="find-pages">
+        <div class="find-pages">
 
             <!-- Heading -->
             <div class="subheading">
@@ -24,23 +36,64 @@
                 <form class="advanced-search-form" action="https://www.google.com/search">
                     <!-- all these words -->
                     <div class="input-fields">
-                        <label for="input">all these words:</label>
-                        <input class="text-box" type="text" name="as_q"> 
+                        <div class="label">
+                            <label for="input">all these words:</label>
+                        </div>
+
+                        <div class="div-text-box">
+                            <input class="text-box" type="text" name="as_q"> 
+                        </div>
+
+                        <div class="span">
+                            <span class="to-do-text">Type the important words: </span>
+                            <span class="to-do-ex">well-built html project</span>
+                        </div>
+
                     </div>
                     <!-- this exact word or phrase -->
                     <div class="input-fields">
-                        <label for="input">this exact word or phrase:</label>
-                        <input class="text-box" type="text" name="as_epq"> 
+                        <div class="label">
+                            <label for="input">this exact word or phrase:</label>
+                        </div>
+
+                        <div class="div-text-box">
+                            <input class="text-box" type="text" name="as_epq">
+                        </div>
+
+                        <div class="span">
+                            <span class="to-do-text">Put the exact words in quotes:</span>
+                            <span class="to-do-ex">"motivated intern"</span>
+                        </div>
                     </div>
                     <!-- any of these words -->
                     <div class="input-fields">
-                        <label for="input">any of these words:</label>
-                        <input class="text-box" type="text" name="as_oq"> 
+                        <div class="label">
+                            <label for="input">any of these words:</label>
+                        </div>
+
+                        <div class="div-text-box">
+                            <input class="text-box" type="text" name="as_oq"> 
+                        </div>
+
+                        <div class="span">
+                            <span class="to-do-text">Type <strong>OR</strong> between all the words you want:</span>
+                            <span class="to-do-ex">reliable OR hardworking</span>
+                        </div>
                     </div>
                     <!-- none of these words -->
                     <div class="input-fields">
-                        <label for="input">this exact word or phrase:</label>
-                        <input class="text-box" type="text" name="as_eq"> 
+                        <div class="label">
+                            <label for="input">none of these words</label>
+                        </div>
+
+                        <div class="div-text-box">
+                            <input class="text-box" type="text" name="as_eq">
+                        </div>
+
+                        <div class="span">
+                            <span class="to-do-text">Put a minus sign just before words you don't want: </span>
+                            <span class="to-do-ex">-other, -interns</span>
+                        </div>
                     </div>
                     <!-- Submit button -->
                     <div class="advanced-submit">
