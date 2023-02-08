@@ -1,5 +1,7 @@
 html {
   background-color: #222;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -8,6 +10,8 @@ html {
 
 body {
   background-color: #222;
+  margin: 0;
+  padding: 0;
 }
 
 .logo-image {
@@ -121,7 +125,7 @@ a:active {
   color: white;
 }
 
-.left-aligh-contents hr {
+.left-align-contents hr {
   display: flex;
   background-color: #222;
   margin-top: 0em;
@@ -136,7 +140,8 @@ a:active {
   padding-left: 50px;
   margin: 0px;
   border-bottom: 2px solid #444;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+  padding-top: 60px;
 }
 
 .subheading {
@@ -159,32 +164,90 @@ a:active {
   transform: translateX(500px);
 }
 
-.input-fields {
-  display: flex;
-  align-items: center;
-  padding: 10px;
+.advanced-search-form {
   background-color: #222;
 }
-.input-fields label {
-  padding-left: 50px;
-  color: white;
-}
-.input-fields span {
-  color: white;
-  align-items: baseline;
+
+.find-pages {
+  background-color: #222;
+  padding-top: 20px;
 }
 
-.text-box {
+.advanced-form {
+  background-color: #222;
+  transform: translateY();
+}
+
+.subheading {
+  background-color: #222;
+}
+
+.input-row {
+  background-color: #222;
   display: flex;
-  width: 520px;
+  flex-direction: row;
+  align-items: center;
+  transform: translateY(40%);
+}
+.input-row .input-label {
+  background-color: #222;
+  padding-left: 63px;
+  color: white;
+  width: 250px;
+}
+.input-row .input-label label {
+  color: #bdc1c6;
+  font-size: 14px;
+}
+.input-row .input-text {
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  box-shadow: none;
+  padding: 10px;
+}
+.input-row .text-box {
+  background-color: #222;
+  outline: none;
+  width: 517px;
+  border: 1px solid slategray;
+  color: white;
+}
+.input-row .input-span {
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-left: 10px;
+}
+.input-row .input-span .span {
+  color: #bdc1c6;
+  padding-right: 10px;
+  font-size: 13px;
+}
+.input-row .input-span .span2 {
+  color: #dadce0;
+  font-size: 14px;
 }
 
 .advanced-submit {
   background-color: #222;
   border-bottom: 2px solid #444;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 .advanced-submit input {
   display: flex;
-  transform: translateX(600px);
+  transform: translateX(647px);
+  background-color: #8ab4f8;
+  border: #8ab4f8;
+  font-size: 12px;
+  height: 30px;
+  width: 120px;
+}
+
+@media only screen and (max-width: 1026px) {
+  .input-span, .span, .span2 {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */
