@@ -43,7 +43,7 @@ body{
 }
 //Search
     .center-on-page{
-        height: 90vh;
+        height: 50vh;
         position: relative;
         background-color: #222;
         width: 90vh;
@@ -53,7 +53,7 @@ body{
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate(-50%,-65%);
+            transform: translate(-50%,-75%);
             
         }
         
@@ -200,6 +200,7 @@ body{
         flex-direction: row;
         align-items: center;
         transform: translateY(40%);
+
         .input-label{
             background-color: #222;
             padding-left: 63px;
@@ -259,7 +260,7 @@ body{
     }
 
 
-    @media only screen and (max-width: 1026px) {
+    @media only screen and (max-width: 995px) {
         .input-span, .span, .span2 {
             display: none;
         }
