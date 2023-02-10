@@ -212,6 +212,7 @@ a:active {
   width: 517px;
   border: 1px solid slategray;
   color: white;
+  border-radius: 5px;
 }
 .input-row .input-span {
   background-color: #222;
@@ -244,6 +245,7 @@ a:active {
   font-size: 12px;
   height: 30px;
   width: 120px;
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 995px) {
