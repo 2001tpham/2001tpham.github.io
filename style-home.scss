@@ -90,6 +90,7 @@ footer{
 
     p{
         margin-bottom: 5%;
+
     }
 
     a{
@@ -105,6 +106,18 @@ footer{
         border: white solid 3px;
     }
 }
+
+    .line{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 60%;
+        border-bottom: white solid 1px;
+        margin-top:5px;
+        margin-bottom: 5px;
+
+
+    }
 
 .display-1{
     color: white;
