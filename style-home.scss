@@ -153,13 +153,14 @@ p{
 .nav-bar{
     position: fixed;
     display: flex;
-    background-color: #000;
+    background-color: #131313;
     width: 100%;
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
     overflow: hidden;
     z-index: 1;
+    box-shadow: 5px 5px 10px 0px rgb(61, 61, 61);
 
     .nav-tabs{
         color:#000;
