@@ -1,0 +1,255 @@
+html {
+  background-color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #222;
+}
+
+body {
+  background-color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-image {
+  text-align: center;
+  font-size: 90px;
+  color: white;
+  background-color: #222;
+  margin-bottom: 0px;
+  height: fit-content;
+  transform: translateY(20px);
+}
+
+.logo {
+  text-align: center;
+  font-size: 90px;
+  color: white;
+  background-color: #222;
+  margin-bottom: 0px;
+  height: fit-content;
+}
+
+.logo-sub {
+  text-align: end;
+  color: cadetblue;
+  padding-right: 100px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: min-content;
+  transform: translateX(650px);
+}
+
+.center-on-page {
+  height: 50vh;
+  position: relative;
+  background-color: #222;
+  width: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -75%);
+}
+
+.nav-bar {
+  background-color: #222;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: auto;
+  padding-right: 50px;
+  padding-top: 15px;
+}
+.nav-bar .nav-list {
+  display: flex;
+}
+.nav-bar .nav-list li {
+  margin: 5px;
+  list-style: none;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+}
+.search-form .submit-button {
+  margin-top: 20px;
+  color: white;
+  background-color: #444;
+  border: 0;
+  border-radius: 4px;
+  height: 36px;
+  width: 150px;
+  margin-right: 2px;
+}
+.search-form .search-bar {
+  display: flex;
+  box-shadow: none;
+  border: 1px solid lightslategray;
+  height: 44px;
+  width: 584px;
+  margin-top: 10px;
+  border-radius: 24px;
+  outline: none;
+  padding: 20px;
+  color: white;
+  background-color: #222;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+a:active {
+  text-decoration: underline;
+  color: white;
+}
+
+.left-align-contents hr {
+  display: flex;
+  background-color: #222;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  color: #222;
+}
+
+.title {
+  background-color: #222;
+  color: indianred;
+  font-size: x-large;
+  padding-left: 50px;
+  margin: 0px;
+  border-bottom: 2px solid #444;
+  padding-bottom: 30px;
+  padding-top: 60px;
+}
+
+.subheading {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 0px;
+  background-color: #222;
+  padding-top: 10px;
+}
+.subheading h5, .subheading h6 {
+  background-color: #222;
+  color: white;
+  margin: 0px;
+}
+.subheading h5 {
+  padding-left: 50px;
+}
+.subheading h6 {
+  transform: translateX(500px);
+}
+
+.advanced-search-form {
+  background-color: #222;
+}
+
+.find-pages {
+  background-color: #222;
+  padding-top: 20px;
+}
+
+.advanced-form {
+  background-color: #222;
+  transform: translateY();
+}
+
+.subheading {
+  background-color: #222;
+}
+
+.input-row {
+  background-color: #222;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transform: translateY(40%);
+}
+.input-row .input-label {
+  background-color: #222;
+  padding-left: 63px;
+  color: white;
+  width: 250px;
+}
+.input-row .input-label label {
+  color: #bdc1c6;
+  font-size: 14px;
+}
+.input-row .input-text {
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  box-shadow: none;
+  padding: 10px;
+}
+.input-row .text-box {
+  background-color: #222;
+  outline: none;
+  width: 517px;
+  border: 1px solid slategray;
+  color: white;
+  border-radius: 5px;
+}
+.input-row .input-span {
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-left: 10px;
+}
+.input-row .input-span .span {
+  color: #bdc1c6;
+  padding-right: 10px;
+  font-size: 13px;
+}
+.input-row .input-span .span2 {
+  color: #dadce0;
+  font-size: 14px;
+}
+
+.advanced-submit {
+  background-color: #222;
+  border-bottom: 2px solid #444;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.advanced-submit input {
+  display: flex;
+  transform: translateX(647px);
+  background-color: #8ab4f8;
+  border: #8ab4f8;
+  font-size: 12px;
+  height: 30px;
+  width: 120px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 995px) {
+  .input-span, .span, .span2 {
+    display: none;
+  }
+}/*# sourceMappingURL=styles.css.map */
