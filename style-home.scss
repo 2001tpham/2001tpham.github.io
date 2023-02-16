@@ -1,8 +1,12 @@
+$main-color: rgb(55, 176, 224);
+$off-white: rgb(226, 226, 226);
+
 html{
     scroll-behavior: smooth;
     background-color: #222;
     margin: 0;
     padding: 0;
+    background: #222;
 }
 
 *{
@@ -11,30 +15,29 @@ html{
 }
 
 body{
-    background-color: #222;
     margin: 0;
     padding: 0;
 }
 
 a:link {
     text-decoration: none;
-    color: white;
+    color: $off-white;
     
 }
 
 a:visited {
     text-decoration: none;
-    color: white;
+    color: $off-white;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: white;
+    text-decoration: none;
+    color: $off-white;
 }
 
 a:active {
     text-decoration: underline;
-    color: white;
+    color: $off-white;
 }
 
 .container-fluid{
@@ -43,18 +46,53 @@ a:active {
     background-color: #222;
 }
 
+.button-effect{
+    transition: .5s;
+    box-shadow: 0px 0px 10px 3px #555;
+}
+.button-effect:hover{
+    box-shadow: 0px 0px 10px 3px $off-white;
+    
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span{
+    font-size: 80px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10%;
+    .display-1{
+        color: rgb(226, 226, 226);
+        font-family: Tourney;
+        width:fit-content;
+        margin: auto;
+        padding-bottom: 0px;
+        font-size: 70;
+        text-align: center;
+    }
+    
+}
+
+
+
 .links{
     display: flex;
     width: 100%;
     justify-content: center;
     background-color: #222;
-
+    padding-bottom: 150px;
     img{
-        transition: 0.5s;
+        transition: .5s;
+        -webkit-filter: drop-shadow(0px 0px 3px $off-white);
     }
 
     img:hover{
-        border: white solid 2px;
+        -webkit-filter: drop-shadow(0px 0px 15px $off-white);
     }
 }
 
@@ -63,6 +101,7 @@ a:active {
     justify-content: center;
     text-align: center;
     align-items: center;
+    padding-top: 0px;
 }
 
 footer{
@@ -75,18 +114,25 @@ footer{
 
 .contacts{
     background-color: #222;
+    padding-top: 0px;
 }
 
 .subpage{
     background-color: #222;
-    height: 100vh;
+    height: 950px;
     padding: 100px;
+    font-family: Montserrat;
 }
 
 .subpage-pro{
     background-color: #222;
     height: 110vh;
     padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Montserrat;
+
 
     p{
         margin-bottom: 5%;
@@ -94,55 +140,61 @@ footer{
     }
 
     a{
-        border: white solid 2px;
-        padding: 10px;
+        width: fit-content;
+        margin-bottom: 30px;
     }
 
     img{
         transition: .5s;
+        -webkit-filter: drop-shadow(0px 0px 3px $off-white);
     }
 
     img:hover{
-        border: white solid 3px;
+        -webkit-filter: drop-shadow(0px 0px 15px $off-white);
     }
 }
 
-    .line{
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        width: 60%;
-        border-bottom: white solid 1px;
-        margin-top:5px;
-        margin-bottom: 5px;
-
-
+.line{
+    width: 40%;
+    margin: auto;
+    height: fit-content;
+    .in-line{
+        height: 5px;
+        background-color: $main-color;
+        box-shadow: 0px 0px 5px 1px $main-color;
+        transform: translateY(10px);
     }
 
+}
+
 .display-1{
-    color: white;
+    color: $off-white;
     font-family: Tourney;
-    border-bottom: white solid 2px;
-    width: 100%;
+    width:fit-content;
+    margin: auto;
+    padding-bottom: 0px;
+    text-align: center;
 }
 
 .display-4{
-    color: white;
-    font-family: Tourney;
+    text-shadow: 0px 0px 10px $main-color;
+    color: $main-color;    font-family: Tourney;
     scale: 80%;
 }
 .title{
     display: flex;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: $off-white;
     font-family: Tourney;
-    margin-top: 15%;
+    margin-top: 0;
+    text-shadow: 0px 0px 10px $main-color;
+    color: $main-color;
 }
 
 p{
     padding-top: 30px ;
-    color: white;
+    color: $off-white;
     font-size: 20px;
 }
 
@@ -160,7 +212,7 @@ p{
     a{
         margin-top: 5%;
         padding: 10px;
-        outline: white solid 2px;
+        outline: $off-white solid 2px;
     }
 }
 
@@ -182,7 +234,7 @@ p{
     }
 
     .navbar-brand{
-        color: white;
+        color: $off-white;
         margin-left: 30px;
         margin-right: 30px;
         font-size: 25px;
