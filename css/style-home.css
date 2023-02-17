@@ -43,7 +43,7 @@ a:active {
 .container-fluid {
   margin: 0px;
   padding: 0px;
-  background-color: #222;
+  background-image: linear-gradient(to right, #222, #414141);
 }
 
 .button-effect {
@@ -53,6 +53,25 @@ a:active {
 
 .button-effect:hover {
   box-shadow: 0px 0px 10px 3px rgb(226, 226, 226);
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-left: auto;
+  padding-right: 40px;
+  align-items: center;
+  align-content: center;
+}
+.right span {
+  font-family: Tourney;
+  text-shadow: none;
+  font-size: 19px;
+}
+.right h6 {
+  color: rgb(177, 177, 177);
+  font-style: Montserrat;
 }
 
 .heading {
@@ -81,7 +100,7 @@ a:active {
   display: flex;
   width: 100%;
   justify-content: center;
-  background-color: #222;
+  background-image: linear-gradient(to right, #222, #414141);
   padding-bottom: 150px;
 }
 .links img {
@@ -114,14 +133,14 @@ footer {
 }
 
 .subpage {
-  background-color: #222;
+  background-image: linear-gradient(to right, #222, #414141);
   height: 900px;
   padding: 100px;
   font-family: Montserrat;
 }
 
 .subpage-pro {
-  background-color: #222;
+  background-image: linear-gradient(to right, #222, #414141);
   height: 1100px;
   padding: 100px;
   display: flex;
@@ -241,11 +260,12 @@ p {
   font-family: Tourney;
 }
 
-.nav-list {
+.nav {
   display: flex;
   flex-direction: row;
   list-style: none;
   align-items: center;
+  margin: auto;
 }
 
 .nav-option {
@@ -259,11 +279,14 @@ p {
   font-family: Montserrat;
   font-weight: bold;
 }
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1120px) {
   html {
     scroll-behavior: smooth;
     background-color: #222;
     background: #222;
+  }
+  .right {
+    margin: auto;
   }
   * {
     margin: 0px;
@@ -358,7 +381,7 @@ p {
     height: 800px;
     padding: 10px;
     font-family: Montserrat;
-    padding-top: 150px;
+    padding-top: 170px;
   }
   .subpage-pro {
     background-color: #222;
@@ -497,7 +520,14 @@ p {
     font-weight: bold;
   }
   .projects-title {
-    padding-top: 110px;
+    padding-top: 170px;
+  }
+}
+@media only screen and (max-wdith: 560px) {
+  .nav {
+    align-content: center;
+    justify-content: center;
+    margin: auto;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -599,7 +629,7 @@ p {
     height: 900px;
     padding: 10px;
     font-family: Montserrat;
-    padding-top: 150px;
+    padding-top: 200px;
   }
   .subpage-pro {
     background-color: #222;
@@ -720,11 +750,12 @@ p {
     text-decoration: none;
     font-family: Tourney;
   }
-  .nav-list {
+  .nav {
     display: flex;
     flex-direction: row;
     list-style: none;
     align-items: center;
+    margin: auto;
   }
   .nav-option {
     padding-right: 60px;
@@ -738,6 +769,6 @@ p {
     font-weight: bold;
   }
   .projects-title {
-    padding-top: 150px;
+    padding-top: 200px;
   }
 }/*# sourceMappingURL=style-home.css.map */
