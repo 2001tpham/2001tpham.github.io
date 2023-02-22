@@ -739,7 +739,7 @@ p{
     
     .subpage{
         background-color: #222;
-        height: 900px;
+        height: 1000px;
         padding: 10px;
         font-family: Montserrat;
         padding-top: 200px;
@@ -747,7 +747,7 @@ p{
     
     .subpage-pro{
         background-color: #222;
-        height: 700px;
+        height: 800px;
         padding-top: 10px;
         padding: 10px;
         display: flex;
@@ -862,6 +862,7 @@ p{
         flex-direction: column;
         justify-content: center;
         width: 100%;
+        padding: 20px;
         align-items: center;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -895,12 +896,17 @@ p{
         list-style: none;
         align-items: center;
         margin: auto;
+        justify-content: center;
     }
     
+
+
     .nav-option{
-        padding-right: 60px;
+        padding-right: 0px;
         align-items: center;
         display: flex;
+        padding: 8px;
+        width: auto;
     
         a{
             text-decoration: none;
@@ -916,7 +922,11 @@ p{
 
     .projects-title{
         padding-top: 200px;
+        padding-bottom: 0px;
     }
     
+    .right{
+        display: none;
+    }
 
 }
