@@ -1,173 +1,122 @@
-<html>
-    <head>
-        <title>Tommy Pham</title>   
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no,minimum-scale=1"/>
-        <link rel="stylesheet" href="/css/style-home.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tourney">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no,minimum-scale=1"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prata">
 
-    </head>
 
-    <body>
-        <!-- NAV BAR -->
-        <div class="nav-bar">
-            <div class="brand-div">
-                <a href="#homepage" class="nav-main">Tommy Pham</a>
-
-            </div>
-            <ul class="nav">
-                <li class="nav-option text-glow-btn"><a href="#homepage">Home</a></li>
-                <li class="nav-option text-glow-btn"><a href="#aboutpage">About Me</a></li>
-                <li class="nav-option text-glow-btn"><a href="#projectspage">Projects</a></li>
-                <li class="nav-option text-glow-btn"><a href="#contactpage">Contact Me</a></li>
-            </ul>    
-
-            <!-- Contact users -->
-            <div class="right">
-                <h6><span class="blue-text">Email: </span>2001tpham@gmail.com</h6>
-                <h6><span class="blue-text">GitHub: </span>2001tpham</h6>
-            </div>
-
+    <title>Tommy Pham</title>
+</head>
+<body>
+    <!-- NAV BAR -->
+    <div class="content-wrapper navbar">
+        <div class="left-div brand-container">
+            <h3 class="brand">Tommy Pham</h3>
         </div>
 
+        <div class="nav-options-container">
+            <ul class="nav-options">
+                <li class="nav-option"><a href="#home">Home</a></li>
+                <li class="nav-option"><a href="#about-me">About Me</a></li>
+                <li class="nav-option"><a href="#tech-skills">Technical Skills</a></li>
+                <li class="nav-option"><a href="#projects">Projects</a></li>
+                <li class="nav-option"><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
 
-        <!-- Home Page -->
-        <div class="container-fluid p-0" id="homepage">
-            <div class="subpage">
-                <div class="heading">
-                    <!-- HEADER -->
-                    <div class="span">
-                        <h1 class="display-1">Hello World! My name is</h1>
-                        <span class="title">Tommy Pham</span>
-                        <h1 class="display-1">and I'm a developer</h1>
-                    </div>
+        <div class="right-div">
+            <img src="github-logo.png" alt="GitHub" width="60px">
+            <img src="email-logo.png" alt="Email" width="60px">
+        </div>
+
+    </div>
+
+
+    <!-- MAIN TOP SECTION -->
+    <div class="content-wrapper main-index padding-nav stack left-banner" id="home">
+        <h1 class="main-text">Hello, World!</h1>
+        <h1 class="main-text">I'm Tommy Pham</h1>
+        <h2 class="main-text">and I'm a Full-Stack Developer</h2>
         
-                </div>
-                <!-- Button to scroll to works -->
-                <div class="homedisplay">
-                    <a href="#projectspage" class="button-effect">View My Work</a>
-                
-                </div>
-            </div>
+        <div class="content-wrapper next-to-eachother">
+            <a href="#contact" class="main-button">Get In Touch</a>
+            <a href="#projects" class="main-button">Check Out My Work</a>
+        </div>
+    </div>
+
+
+    <!-- TECHNICAL SKILLS -->
+    <div class="center padding-nav grey-mobile" id="tech-skills">
+        <h1 class="main-text">Technical Skills</h2>
+    </div>
+    <div class="content-wrapper center padding-bottom mobile-stack grey-mobile">
+        
+        <div class="med-card">
+            <h3 class="main-text">Python</h3>
+            <img src="Python-logo.jpg" alt="Python">
+        </div>
+        
+        <div class="med-card">
+            <h3 class="main-text">Django</h3>
+            <img src="django-logo.jpg" alt="Django" width="115px">
+        </div>  
+        
+        <div class="med-card">
+            <h3 class="main-text">HTML</h3>
+            <img src="html-logonew.jpg" alt="HTML" width="115px">
+        </div>
+        
+        <div class="med-card">
+            <h3 class="main-text">CSS/SCSS</h3>
+            <img src="css-logo.jpg" alt="CSS" width="115px">
+        </div>
+    </div>
+
+    <!-- ABOUT ME -->
+    <div class="content-wrapper padding-nav next-to-eachother grey padding-bottom white-mobile" id="about-me">
+        <div class="half-div">
+            <h1 class="main-text padding-left">About Me</h1>
+            <p class="padding-left subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores fugit, eius similique laudantium pariatur totam alias perspiciatis cum dicta mollitia a neque in maiores voluptatem corrupti quae doloribus vitae, iste dolor, voluptate aliquid nesciunt consectetur excepturi. Recusandae, soluta culpa unde quasi iusto sequi inventore deserunt, quidem distinctio corporis, nobis earum.</p>
+        </div>
+
+        <div class="half-div center stack">
+            <h2 class="main-text">Let's Work Together</h2>
+            <a href="#contact" class="main-button">Get in Touch</a>
+        </div>
+
+    </div>
+
+    <!-- PROJECTS -->
+    <!-- Commerce -->
+    <div class="content-wrapper padding-nav" id="projects">
+        <h1 class="main-text">Mini Projects</h1>
+    </div>
+
+    <div class="content-wrapper next-to-eachother padding-bottom">
+        <div class="big-card">
+            <h2 class="main-text">E-Commerce Site</h2>
+            <a href="commerce.html"><img src="Commerce Main.jpg" alt="E-Commerce Site" width="600px"></a>
             
-            <div class="line"><div class="in-line"></div></div>
-
+            <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ea nesciunt repudiandae delectus voluptate? Illum?</p>
+            <a href="commerce.html" class="main-button">See More</a>
         </div>
 
+        <div class="big-card">
+            <h2 class="main-text">Wiki</h2>
+            <a href="wiki.html"><img src="wiki-main.jpg" alt="Wiki" width="600px"></a>
 
-
-
-        
-
-        <!-- About Me -->
-        <div class="container-fluid p-0" id="aboutpage">
-            <div class="subpage">
-                <h1 class="display-1 title">About Me</h1>
-    
-                <p>
-                    There's nothing I enjoy more than learning and expanding my skillset, and as a <span class="blue-text">computer science major</span>, I've been finding as many opportunities to do that as possible. Building projects, independently from coursework, is something I love to do in my free time and it allows to me constantly grow my <span class="blue-text">full-stack</span> developer's toolbox and increase my understanding of technological concepts and <span class="blue-text">creativity</span>. But, no matter how much technical skill someone has, it can never outweigh the ability to collaborate with a team which is why I always make an effort to show <span class="blue-text">determination</span>, an <span class="blue-text">eagerness to help</span>, and <span class="blue-text">compassion</span>. So if you're looking for an opportunity to bring motivation, <span class="blue-text">positivity</span>, and a hard-working mindset then get in touch!
-                </p>
-    
-                <!-- Tech Skills display bar -->
-                <div class="tech-skills">
-                    <h3 class="display-4">Technical Skills</h3>
-                    
-                    <img src="pngegg (2).png" alt="HTML" height="100px">
-        
-                    
-                    <img src="pngegg (3).png" alt="CSS" height="100px">
-        
-                    
-                    <img src="pngegg (4).png" alt="Python" height="100px">
-                </div>
-                <div class="line"><div class="in-line"></div></div>
-            </div>
-
+                <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ea nesciunt repudiandae delectus voluptate? Illum?</p>
+                <a href="wiki.html" class="main-button">See More</a>
         </div>
+    </div>
 
-
-        
-
-        <!-- Projects Page -->
-        <div class="container-fluid p-0" id="projectspage">
-            <div class="projects-title">
-                <h1 class="display-1 title">Projects</h1>
-            </div>
-    
-                
-    
-                <!-- View Portfolio Code -->
-                <div class="subpage-pro">
-                    <h2 class="display-4 homedisplay">This Website</h2>
-                    <center>
-                        <a href="https://github.com/2001tpham/2001tpham.github.io"><img src="website-img.png" alt="This Website" height="500px"></a>
-
-                    </center>
-                    <p>This developer portfolio was built in 3 days and it is my second full HTML/CSS project. In building this project, I focused heavily on an aesthetic user interface and responsiveness across platforms.</p>
-                    <p> <span class="blue-text">Tech:</span> HTML / CSS / SCSS</p>
-                    
-                    <div class="homedisplay">
-                        <a href="https://github.com/2001tpham/2001tpham.github.io" class="button-effect">View Source Code</a>
-                        
-                    </div>
-                </div>
-
-                <div class="line"><div class="in-line"></div></div>
-            </div>
-
-                
-
-                <!-- Google Clone -->
-                <div class="subpage-pro">
-                    <h2 class="display-4 homedisplay">Google Clone</h2>
-                    <center>
-                        <a href="/GoogleClone/index.html"><img src="googlecloneimg.png" alt="Google Clone" height="500px" ></a>
-
-                    </center>
-                    <p>This project was my first full HTML/CSS project and allowed me to build a strong foundation in the concepts and logic of front-end development. Along with design, creating the project also gave me a basic understanding of form actions.</p>
-                    <p><span class="blue-text">Tech:</span> HTML / CSS / SCSS</p>
-                    <div class="homedisplay">
-                        <a href="https://github.com/2001tpham/2001tpham.github.io/tree/main/GoogleClone" class="button-effect">View Source Code</a>
-                    </div>
-
-                    <div class="line"><div class="in-line"></div></div>
-                </div>
-    
-                
-                
-                
-                <!-- GitHub -->
-                <div class="subpage-pro">
-                    <h5 class="display-4 homedisplay">GitHub</h5>
-                    <center>
-                        <a href="https://github.com/2001tpham"><img src="gitimg.png" alt="GitHub" height="500px"></a>
-
-                    </center>
-                    <p>Along with the projects listed above, my github repositories also have a couple of note files that I created while taking some online coding courses that have helped me grasp concepts in logic and formatting.</p>
-                    
-                    <div class="line"><div class="in-line"></div></div>
-                </div>
-                
-            
-        </div>
-
-
-
-
-        <!-- Contact Me -->
-            <div class="container-fluid p-0 contacts" id="contactpage">
-                <h3 class="display-4 foot">Links</h3>
-                <div class="links">
-                    <center>
-                        <a href="mailto:2001tpham@gmail.com"><img src="pngegg.png" alt="Email" width="100px"></a>
-                        <a href="https://github.com/2001tpham"><img src="pngegg (1).png" alt="GitHub" width="150px"></a>
-                    </center>
-                </div>
-            </div>
-
-
-
-    </body>
-
+    <!-- FOOTER -->
+    <div class="footer grey" id="contact">
+        <h1>TODO CONTACT FORM</h1>
+    </div>
+</body>
 </html>
