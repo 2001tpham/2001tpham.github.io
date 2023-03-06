@@ -164,7 +164,7 @@ body {
   box-shadow: 3px 3px 5px 3px grey;
   width: 700px;
   margin: 30px;
-  height: 600px;
+  height: 650px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -252,8 +252,11 @@ body {
   .navbar .right-div img {
     width: 40px;
   }
+  .navbar .brand {
+    margin-bottom: 0px;
+  }
   .padding-nav {
-    padding-top: 300px;
+    padding-top: 295px;
   }
   .main-index {
     background-image: none;
@@ -285,6 +288,10 @@ body {
   .big-card img {
     width: 300px;
   }
+  .big-card .next-to-eachother {
+    display: flex;
+    flex-direction: row;
+  }
   .grey-mobile {
     background-color: rgb(231, 228, 228);
   }
@@ -293,9 +300,11 @@ body {
   }
   .subtext {
     font-size: 27px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .big-text {
-    font-size: 60px;
+    font-size: 55px;
     text-align: center;
   }
   .tech-label {
@@ -323,5 +332,42 @@ body {
     height: 200px;
     background-size: 200%;
     background-position: 0% 0;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .main-index {
+    background-image: none;
+    color: black;
+    width: 300px;
+    padding-left: 0;
+    margin: auto;
+    height: fit-content;
+  }
+  .padding-nav {
+    padding-top: 260px;
+  }
+  .grey-mobile {
+    background-color: rgb(231, 228, 228);
+  }
+  .white-mobile {
+    background-color: white;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .med-card {
+    margin-bottom: 20px;
+  }
+  .wrap {
+    flex-wrap: wrap;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .navbar ul {
+    display: flex;
+    flex-wrap: wrap;
   }
 }/*# sourceMappingURL=styles.css.map */
