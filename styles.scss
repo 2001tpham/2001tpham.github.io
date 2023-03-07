@@ -216,7 +216,7 @@ body {
         margin-right: 30px;
         box-shadow: 2px 2px 10px 1px grey;
         transform: scale(0.2);
-        transition: 1.3s;
+        transition: 1s;
         h3 {
             color: $accent;
         }
@@ -240,17 +240,17 @@ body {
     .left-side {
         transform: translateX(-220px);
         opacity: 0;
-        transition: 1s;
+        transition: .7s;
     }
     .left-side.active {
         transform: translateX(0px);
-        opacity: 1.5;
+        opacity: .7;
     }
 
     .right-side {
         transform: translateX(220px);
         opacity: 0;
-        transition: 1.5s;
+        transition: .7s;
     }
     .right-side.active {
         transform: translateX(0px);
@@ -259,7 +259,7 @@ body {
 
     .scale-item {
         transform: scale(.1);
-        transition: 1s;
+        transition: .5s;
     }
     .scale-item.active {
         transform: scale(1);
@@ -267,7 +267,7 @@ body {
 
     .scroll {
         transform: scale(0.1);
-        transition: 1s;
+        transition: .5s;
     }
     .scroll.active {
         transform: scale(1);
