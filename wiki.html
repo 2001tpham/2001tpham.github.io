@@ -8,15 +8,14 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prata">
+    <script src="project.js"></script>
 
     <title>Commerce</title>
 </head>
 <body>
     <!-- NAV BAR -->
     <div class="content-wrapper navbar">
-        <div class="left-div brand-container">
-            <h3 class="brand">Tommy Pham</h3>
-        </div>
+        <a href="index.html#home"><div class="left-div brand-container"><h3 class="brand">Tommy Pham</h3></div></a>
 
         <div class="nav-options-container">
             <ul class="nav-options">
@@ -29,8 +28,8 @@
         </div>
 
         <div class="right-div">
-            <a href="https://github.com/2001tpham/2001tpham.github.io"><img src="github-logo.png" alt="GitHub" width="60px"></a>
-            <a href="#contact"><img src="email-logo.png" alt="Email" width="60px"></a>
+            <a href="https://github.com/2001tpham/2001tpham.github.io" target="_blank"><img src="github-logo.png"class="icon" alt="GitHub" width="60px"></a>
+            <a href="#contact"><img src="email-logo.png" class="icon"alt="Email" width="60px"></a>
         </div>
 
     </div>
@@ -40,7 +39,7 @@
         <h1 class="main-text  big-text">Community Enclyclopedia</h1>
         <h3 class="subtext">Implemented functionality to an existing community enclyclopedia site including the ability for users to search for entries, create/edit entries, and converting Markdown code into HTML.</h3>
         <div class="center">
-            <h4 class="tech-label">Django</h4>
+            <h4 class="tech-label scroll scroll-reveal">Django</h4>
         </div>
     </div>
 
@@ -48,7 +47,7 @@
         <div class="project-image-banner background-wiki"></div>
     </div>
 
-    <div class="content-wrapper center stack">
+    <div class="content-wrapper center stack come-from-left left-side">
         <h2 class="main-text">Project Overview</h2>
         <ul>
             <li class="subtext">Utilized Django's template functionality to allow users to view existing entries</li>
@@ -59,27 +58,42 @@
     </div>
 
     <div class="grey padding-top padding-bottom">
-        <div class="project-image-banner background-wiki-second"></div>
+        <div class="project-image-banner background-wiki-second scale scale-item"></div>
     </div>
 
     <div class="content-wrapper center padding-top">
-        <a href="https://github.com/2001tpham/CS50W-Lectures/tree/main/Projects/wiki" class="main-button">View Source Code</a>
+        <a href="https://github.com/2001tpham/CS50W-Lectures/tree/main/Projects/wiki" target="_blank" class="main-button">View Source Code</a>
     </div>
 
     <div class="center mobile-stack wrap">
-        <div class="big-card">
+        <div class="big-card come-from-left left-side">
             <img src="wiki-page.jpg" alt="Commerce Create Listing" width="700px">
         </div>
         
-        <div class="big-card">
+        <div class="big-card come-from-right right-side">
             <img src="wiki-create.jpg" alt="Commerce Create Listing" width="700px">
         </div>
     </div>
     
     <div class="center">
-        <div class="big-card">
+        <div class="big-card come-from-left left-side">
             <img src="wiki-main.jpg" alt="Commerce Create Listing" width="700px">
         </div>
+    </div>
+
+    <div class="footer grey center" id="contact">
+        <div class=" stack half-div">
+            <h3 class="main-text">Get In Touch</h1>
+            <p class="subtext">If you have any questions, want to hear more about my projects, or want to work together, leave some details here and I'll get back to you right away. I'm excited to talk!</p>
+        </div>
+        <form name="contact" action="commerce.html" netlify>
+            <div class="center stack">
+                <input type="text" name='name' placeholder="Full Name" class="margin-bottom input" required>
+                <input type="email" name="email" placeholder="Email" class="margin-bottom input" required>
+                <textarea name="message"cols="30" rows="10" placeholder="Message" class="margin-bottom input"></textarea>
+                <button type="submit" class="small-button">Send</button>
+            </div>
+        </form>
     </div>
 
 

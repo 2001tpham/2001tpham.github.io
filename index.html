@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prata">
+    <script src="script.js"></script>
 
     <title>Tommy Pham</title>
 </head>
 <body>
     <!-- NAV BAR -->
     <div class="content-wrapper navbar">
-        <div class="left-div brand-container">
-            <h3 class="brand">Tommy Pham</h3>
-        </div>
+        <a href="index.html#home"><div class="left-div brand-container"><h3 class="brand">Tommy Pham</h3></div></a>
+
 
         <div class="nav-options-container">
             <ul class="nav-options">
@@ -28,8 +28,8 @@
         </div>
 
         <div class="right-div">
-            <a href="https://github.com/2001tpham"><img src="github-logo.png" alt="GitHub" width="60px"></a>
-            <a href="#contact"><img src="email-logo.png" alt="Email" width="60px"></a>
+            <a href="https://github.com/2001tpham" target="_blank" ><img src="github-logo.png"class="icon" alt="GitHub" width="60px"></a>
+            <a href="#contact"><img src="email-logo.png" class="icon"alt="Email" width="60px"></a>
         </div>
 
     </div>
@@ -54,27 +54,27 @@
     </div>
     <div class="content-wrapper center padding-bottom grey-mobile wrap">
         
-        <div class="med-card">
+        <div class="med-card scroll-reveal">
             <h3 class="main-text">Python</h3>
             <img src="Python-logo.jpg" alt="Python">
         </div>
         
-        <div class="med-card">
+        <div class="med-card scroll-reveal">
             <h3 class="main-text">Django</h3>
             <img src="django-logo.png" alt="Django" width="115px">
         </div>  
         
-        <div class="med-card">
+        <div class="med-card scroll-reveal">
             <h3 class="main-text">HTML</h3>
             <img src="html-logo.png" alt="HTML" width="115px">
         </div>
         
-        <div class="med-card">
+        <div class="med-card scroll-reveal">
             <h3 class="main-text">CSS/SCSS</h3>
             <img src="css-logo.jpg" alt="CSS" width="115px">
         </div>
 
-        <div class="med-card">
+        <div class="med-card scroll-reveal">
             <h3 class="main-text">JavaScript</h3>
             <img src="js-logo.png" alt="CSS" width="80px">
         </div>
@@ -82,7 +82,7 @@
 
     <!-- ABOUT ME -->
     <div class="content-wrapper padding-nav next-to-eachother grey padding-bottom white-mobile" id="about-me">
-        <div class="half-div">
+        <div class="half-div left-side come-from-left">
             <h1 class="main-text padding-left">About Me</h1>
             <p class="padding-left subtext">My name is Tommy and I'm a student at University of Nebraska - Omaha. I fell in love with designing and creating ways to make life easier and I have found that when I combine that with coding, there's unlimited potential to make a positive impact.</p>
 
@@ -95,7 +95,7 @@
             <p class="padding-left subtext">But technical skill means nothing without personal skill. That's why I focus on developing a team-oriented, hardworking mindset just as much as a focus on the technical side. Coachability and an eagerness to learn are essential in any aspect of life, and I pride myself in putting emphasis on those traits. But most importantly, regardless of how stressful a day may be, I'll always have your back.</p>
         </div>
 
-        <div class="half-div center stack grey-mobile" style="padding-top: 10px; padding-bottom: 10px;">
+        <div class="half-div center stack grey-mobile come-from-right right-side" style="padding-top: 10px; padding-bottom: 10px;">
             <h2 class="main-text" style="margin-top: 0px;">Let's Work Together!</h2>
             <a href="#contact" class="main-button">Get in Touch</a>
         </div>
@@ -108,20 +108,27 @@
         <h1 class="main-text">Mini Projects</h1>
     </div>
 
-    <div class="content-wrapper next-to-eachother padding-bottom wrap">
-        <div class="big-card">
-            <h2 class="main-text">E-Commerce Site</h2>
-            <a href="commerce.html"><img src="Commerce Main.jpg" alt="E-Commerce Site" width="600px"></a>
-            
-            <p class="subtext">Implemented functionality to an existing e-commerce template site including database model design and webpage rendering</p>
-            <div class="next-to-eachother">
-                <h3 class="tech-label">Django</h3>
-                <h3 class="tech-label">SQLite</h3>
-            </div>
-            <a href="commerce.html" class="main-button">See More</a>
-        </div>
 
-        <div class="big-card">
+
+    <div class="content-wrapper next-to-eachother padding-bottom wrap">
+            <div class="big-card card-click come-from-left left-side" id="commerce-cardid">
+                <h2 class="main-text">E-Commerce Site</h2>
+                <a href="commerce.html"><img src="Commerce Main.jpg" alt="E-Commerce Site" width="600px"></a>
+                
+                <p class="subtext">Implemented functionality to an existing e-commerce template site including database model design and webpage rendering</p>
+                <div class="next-to-eachother">
+                    <h3 class="tech-label">Django</h3>
+                    <h3 class="tech-label">SQLite</h3>
+                </div>
+                
+                <div class="next-to-eachother margin-top">
+                    <a href="commerce.html" class="main-button margin-right">See More</a>
+                    <a href="https://github.com/2001tpham/CS50W-Lectures/tree/main/Projects/commerce" target="_blank" class="main-button">View Source Code</a>
+                </div>
+            </div>
+
+
+        <div class="big-card card-click come-from-right right-side" id="wiki-cardid">
             <h2 class="main-text">Encyclopedia</h2>
             <a href="wiki.html"><img src="wiki-main.jpg" alt="Wiki" width="600px"></a>
 
@@ -129,18 +136,27 @@
                 <div class="next-to-eachother">
                     <h3 class="tech-label">Django</h3>
                 </div>
-                <a href="wiki.html" class="main-button">See More</a>
+
+                <div class="next-to-eachother margin-top">
+                    <a href="wiki.html" class="main-button margin-right">See More</a>
+                    <a href="https://github.com/2001tpham/CS50W-Lectures/tree/main/Projects/wiki" target="_blank" class="main-button">View Source Code</a>
+                </div>
         </div>
     </div>
 
     <!-- FOOTER -->
-    <div class="footer grey" id="contact">
-        <h1>TODO CONTACT FORM</h1>
+    <div class="footer grey center" id="contact">
+        <div class=" stack half-div">
+            <h3 class="main-text">Get In Touch</h1>
+            <p class="subtext">If you have any questions, want to hear more about my projects, or want to work together, leave some details here and I'll get back to you right away. I'm excited to talk!</p>
+        </div>
         <form name="contact" action="commerce.html" netlify>
-            <input type="text" name='name' placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message"cols="30" rows="10" placeholder="Your Message"></textarea>
-            <button type="submit">Send</button>
+            <div class="center stack">
+                <input type="text" name='name' placeholder="Full Name" class="margin-bottom input" required>
+                <input type="email" name="email" placeholder="Email" class="margin-bottom input" required>
+                <textarea name="message"cols="30" rows="10" placeholder="Message" class="margin-bottom input"></textarea>
+                <button type="submit" class="small-button">Send</button>
+            </div>
         </form>
     </div>
 </body>

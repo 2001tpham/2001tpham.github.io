@@ -24,31 +24,6 @@ document.addEventListener('DOMContentLoaded', function() {
         })
     })
 
-    //CARD CLICK
-    const cardButton = document.querySelectorAll('.card-click');
-
-    cardButton.forEach(function(cardButton) {
-        cardButton.addEventListener('mouseover', function() {
-            cardButton.classList.add('hover-card');
-        })
-    
-        cardButton.addEventListener('mouseout', function() {
-            cardButton.classList.remove('hover-card');
-        })
-    })
-
-    const commerceCard = document.querySelector('#commerce-cardid');
-
-    commerceCard.addEventListener('click', function() {
-        window.location.href = 'commerce.html';
-    })
-
-    const wikiCard = document.querySelector('#wiki-cardid');
-
-    wikiCard.addEventListener('click', function() {
-        window.location.href = 'wiki.html';
-    })
-
     //NAV LINKS
 
     const navLink = document.querySelectorAll('.nav-option');
@@ -122,18 +97,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     scrollTrigger('.scroll-reveal', {
+        rootMargin: '400px',
+    })
+
+    scrollTrigger('.come-from-left', {
+        rootMargin: '200px',
+    })
+
+    scrollTrigger('.come-from-right', {
         rootMargin: '200px',
     })
 
     scrollTrigger('.scale', {
-        rootMargin: '-200px',
-    })
-
-    scrollTrigger('.come-from-left', {
-        rootMargin: '-200px',
-    })
-
-    scrollTrigger('.come-from-right', {
         rootMargin: '-200px',
     })
 })
