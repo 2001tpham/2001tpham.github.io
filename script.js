@@ -126,14 +126,14 @@ document.addEventListener('DOMContentLoaded', function() {
     })
 
     scrollTrigger('.scale', {
-        rootMargin: '-200px',
+        rootMargin: '-100px',
     })
 
     scrollTrigger('.come-from-left', {
-        rootMargin: '-200px',
+        rootMargin: '-100px',
     })
 
     scrollTrigger('.come-from-right', {
-        rootMargin: '-200px',
+        rootMargin: '-100px',
     })
 })

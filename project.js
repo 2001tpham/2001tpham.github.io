@@ -97,18 +97,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     scrollTrigger('.scroll-reveal', {
-        rootMargin: '400px',
+        rootMargin: '200px',
     })
 
     scrollTrigger('.come-from-left', {
-        rootMargin: '200px',
+        rootMargin: '-100px',
     })
 
     scrollTrigger('.come-from-right', {
-        rootMargin: '200px',
+        rootMargin: '-100px',
     })
 
     scrollTrigger('.scale', {
-        rootMargin: '-200px',
+        rootMargin: '-100px',
     })
 })
