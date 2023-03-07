@@ -240,17 +240,17 @@ body {
     .left-side {
         transform: translateX(-220px);
         opacity: 0;
-        transition: .7s;
+        transition: .4s;
     }
     .left-side.active {
         transform: translateX(0px);
-        opacity: .7;
+        opacity: .4;
     }
 
     .right-side {
         transform: translateX(220px);
         opacity: 0;
-        transition: .7s;
+        transition: .4s;
     }
     .right-side.active {
         transform: translateX(0px);
