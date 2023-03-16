@@ -115,6 +115,8 @@ body {
 }
 
 .navbar {
+  transition: 0.4s;
+  height: 97px;
   display: flex;
   flex-direction: row;
   align-items: center;

@@ -125,7 +125,8 @@ body {
 //NAV BAR
 
     .navbar {
-
+        transition: 0.4s;
+        height: 97px;
         ul {
             display: flex;
             flex-direction: row;
