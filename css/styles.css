@@ -309,6 +309,7 @@ body {
   font-family: Prata;
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 5px;
 }
 
 .project-image-banner {
@@ -343,6 +344,10 @@ body {
 
 .padding-top {
   padding-top: 50px;
+}
+
+.wrap {
+  flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 500px) {

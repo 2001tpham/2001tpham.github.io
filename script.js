@@ -49,6 +49,12 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = 'wiki.html';
     })
 
+    const roommateCard = document.querySelector('#roommate-cardid');
+
+    roommateCard.addEventListener('click', function() {
+        window.location.href = 'roommate-dock.html';
+    })
+
     //NAV LINKS
 
     const navLink = document.querySelectorAll('.nav-option');
