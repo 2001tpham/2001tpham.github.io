@@ -19,6 +19,10 @@ a:active {
     color: $off-white;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 html {
     scroll-behavior: smooth;
     margin: 0px;
