@@ -237,6 +237,16 @@ body {
         flex-direction: column;
         align-items: center;
     }
+    .project-big-card {
+        box-shadow: 3px 3px 5px 3px grey;
+        width: 700px;
+        margin: 30px;
+        height: 790px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .left-side {
         transform: translateX(-220px);
@@ -365,6 +375,11 @@ body {
     }
 
     //ROOMMATE DOCK
+
+    .no-margin{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     .background-roommate {
         background-image: url('../roommate-dashboard.jpg');
         background-size: 100%;
@@ -463,6 +478,19 @@ body {
     }
 
     .big-card {
+        width: 80%;
+        height: fit-content;
+        padding-bottom: 15px;
+        img {
+            width: 300px;
+        }
+
+        .next-to-eachother {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+    .project-big-card {
         width: 80%;
         height: fit-content;
         padding-bottom: 15px;
